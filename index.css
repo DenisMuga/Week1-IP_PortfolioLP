@@ -34,3 +34,20 @@
     border-radius: 15px;
 
 }
+#home::before{
+    top: 0;
+    right: 0;
+    content: "";
+    z-index: -1;
+    opacity: .6;
+    position: absolute;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Images/Denis.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-color: black;
+     
+}
