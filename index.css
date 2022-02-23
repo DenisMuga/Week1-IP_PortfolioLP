@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0px;  
+}
+.navbar ul li{
+    font-family: 'montserrat';
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    padding: 8px 25px;
+    color: maroon;
+    text-decoration: none;
+    transition: all .5s ease;
+
+}
