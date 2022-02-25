@@ -13,6 +13,7 @@
     position: absolute;
 }
 .Float img{
+   float: right;
    height: 50vh;
    width: 50vh;
    border-radius: 50%;
@@ -24,4 +25,24 @@
     border: 2px solid brown;
     border-radius: 15px;
     background-color: rgb(136, 136, 218);
+}
+
+.Projects-pics img{
+    width: 32vw;
+    height: 40vh;
+    padding: 20px;
+    float: left;
+    background-color: rgb(209, 201, 201);
+    margin-top: 3%;
+    
+}
+.Portfolio{
+    margin-top: 5%;
+}
+.Portfolio h1{
+    text-align: center;
+    color: brown;
+}
+#gallery{
+    background-color: rgb(209, 201, 201);
 }
