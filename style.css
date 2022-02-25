@@ -28,12 +28,14 @@
 }
 
 .Projects-pics img{
-    width: 32vw;
+    width: 32.98vw;
     height: 40vh;
     padding: 20px;
     float: left;
     background-color: rgb(209, 201, 201);
     margin-top: 3%;
+    box-sizing: border-box;
+    border-radius: 15px;
     
 }
 .Portfolio{
