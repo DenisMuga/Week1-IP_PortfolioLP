@@ -90,5 +90,18 @@
     background-color: purple;
     font-weight: bold;
     text-shadow: 0 0 5px purple, 0 0 10px purple, 0 0 15px purple;
-
+}
+#contact{
+    display: flex;
+    background-color:  rgb(136, 136, 218);
+    color: brown;
+    flex-direction: column;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
 }
