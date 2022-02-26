@@ -2,6 +2,7 @@
     background-color: rgb(250, 227, 227);
     margin-top: 3%;
     height: 60vh;
+    color: white;
 }
 .Know-Me h1{
     margin-top: 15px;
@@ -22,7 +23,7 @@
     line-height: 2;
     width: 70vw;
     margin-top: 3%;
-    border: 2px solid brown;
+    border: 2px solid maroon;
     border-radius: 15px;
     background-color: rgb(136, 136, 218);
 }
@@ -35,7 +36,7 @@
     background-color: rgb(209, 201, 201);
     margin-top: 3%;
     box-sizing: border-box;
-    border-radius: 15px;
+    border-radius: 20px;
     
 }
 .Portfolio{
@@ -47,4 +48,40 @@
 }
 #gallery{
     background-color: rgb(209, 201, 201);
+}
+
+.box{
+    width: 25vw;
+    text-align: justify;
+    align-items: center;
+    border: 2px solid brown;
+    padding: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background: linear-gradient(to top, rgb(136, 136, 218) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    box-shadow: 0 0 20px rgb(136, 136, 218);
+    color: white;
+}
+.skills{
+    text-align: center;
+}
+.box p{
+    margin-top: 20%;
+}
+.Denis{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+.Ukraine{
+    margin-top: 20px;
+}
+.Ukraine h1{
+    text-align: center;
+    color: maroon;
 }
