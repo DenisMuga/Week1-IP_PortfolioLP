@@ -73,6 +73,11 @@
 .box p{
     margin-top: 20%;
 }
+.box img{
+    margin-left: 35%;
+    margin-top: 10%;
+    width: 30%;
+}
 .Denis{
     display: flex;
     justify-content: space-around;
