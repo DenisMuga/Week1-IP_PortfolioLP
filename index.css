@@ -171,3 +171,12 @@ html{
 .Links{
     padding: 20px;
 }
+.sign-off{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(141, 135, 135);
+    margin-bottom: 2%;
+}
+.Footer{
+    margin-top: 4%;
+}
