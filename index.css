@@ -168,8 +168,18 @@ html{
 .Icons:hover{
     color: brown;
 }
-.Links{
-    padding: 20px;
+#Links{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: brown;
+    font-weight: bolder;
+
+}
+#Links:hover{
+    cursor: pointer;
+
 }
 .sign-off{
     display: flex;
