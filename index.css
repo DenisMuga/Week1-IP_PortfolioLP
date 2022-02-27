@@ -122,8 +122,15 @@
     margin: 15px;
 }
 #send{
+    cursor: pointer;
     padding: 15px;
     width: 15%;
     border-radius: 15px;
     border: white;
+
+}
+#send:hover{
+    background-color: brown;
+    color-scheme: white;
+    box-shadow: brown;
 }
