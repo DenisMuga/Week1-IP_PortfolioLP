@@ -10,6 +10,10 @@
     align-items: center;
     background-color: blue;
 }
+.navbar img{
+    width: 5%;
+    margin-right: 45%;
+}
 .navbar ul{
     display: flex;
     justify-content: center;
