@@ -37,7 +37,9 @@
     color: purple;
     box-shadow: 0 0 10px purple;
     border-radius: 15px;
-
+}
+html{
+    scroll-behavior: smooth;
 }
 #home::before{
     top: 0;
