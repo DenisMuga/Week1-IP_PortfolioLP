@@ -1,11 +1,20 @@
+.navbar ul{
+    flex-direction: column;
+    margin-right: 40%;
+    
+}
+.navbar{
+    margin-left: 8%;
+}
+.navbar ul li a{
+    padding: 4px 12px;
+}
 .Float img{
     width: 30%;
     height: 30vh;
     margin-left: 20%;
-
-
 }
-.Float {
+.Float{
     flex-direction: column; 
 }
 .Float p{
@@ -20,7 +29,6 @@
     margin-top: 40%;
 }
 .Projects-pics{
-    /* display: flex; */
     flex-direction: column;
     column-count: 2;
     width: 75%;
@@ -28,7 +36,7 @@
 }
 .headings{
     margin-right: 20%;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 .Denis{
     flex-direction: column;
@@ -36,4 +44,23 @@
 .box{
     width: 75%;
     margin-top: 3%;
+}
+.Langauges{
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30%;
+}
+.Langauges img{
+    width: 50%;
+    margin-top: 5%;
+    height: 40vh;
+}
+.form{
+    margin-right: 20%;
+    border: none;
+}
+.Icons{
+    /* flex-direction: column; */
+    margin-right: 28%;
+
 }
