@@ -1,0 +1,29 @@
+.Float img{
+    width: 30%;
+    height: 30vh;
+    margin-left: 20%;
+
+
+}
+.Float {
+    flex-direction: column; 
+}
+.Float p{
+    width: 75%;
+    line-height: 1;
+}
+.Know-Me h1{
+    margin-right: 25%;
+}
+#Portfolio h1{
+    margin-right: 22%;
+    margin-top: 40%;
+}
+.Projects-pics{
+    /* display: flex; */
+    flex-direction: column;
+    column-count: 2;
+    width: 75%;
+    margin-top: 3%;
+
+}
