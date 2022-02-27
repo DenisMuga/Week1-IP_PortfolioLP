@@ -1,4 +1,4 @@
-.About-Danis{
+#About-Danis{
     background-color: rgb(250, 227, 227);
     margin-top: 3%;
     height: 60vh;
@@ -39,10 +39,10 @@
     border-radius: 20px;
     
 }
-.Portfolio{
+#Portfolio{
     margin-top: 5%;
 }
-.Portfolio h1{
+#Portfolio h1{
     text-align: center;
     color: brown;
 }
