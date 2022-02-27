@@ -110,7 +110,7 @@
 .input{
     padding: 15px;
     margin: 15px;
-    width: 40%;
+    width: 30%;
     border: white;
     border-radius: 15px;
 
@@ -127,12 +127,16 @@
     width: 15%;
     border-radius: 15px;
     border: white;
+    color: brown;
+    font-weight: bolder;
+    transition: .6s ease;
 
 }
 #send:hover{
-    background-color: brown;
-    color-scheme: white;
+    color: white;
     box-shadow: brown;
+    text-shadow: 0 0 5px purple, 0 0 10px purple, 0 0 15px purple;
+    background-color: brown;
 }
 .Langauges{
     display: flex;
@@ -151,11 +155,10 @@
     justify-content: space-evenly;
     cursor: pointer;
     color: white;
-    /* background-color: white; */
     display: flex;
     border-radius: 15px;
     padding: 20px;
 }
 .Icons:hover{
-    color: blue;
+    color: brown;
 }
